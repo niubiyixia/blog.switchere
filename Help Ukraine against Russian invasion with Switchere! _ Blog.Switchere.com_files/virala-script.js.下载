@@ -1,0 +1,9 @@
+window.addEventListener('load', function () {
+    document.querySelector('.js-on-visible-nav').addEventListener('click', function () {
+        document.querySelector('.js-mid_nav_button').classList.toggle('hidden');
+    })
+});
+
+jQuery(document).ready(function(){
+
+});
